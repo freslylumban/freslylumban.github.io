@@ -1,0 +1,174 @@
+body {
+}
+
+/* color picker
+1. rgb(6, 156, 206)
+2. rgb(98, 190, 231)
+3. rgb(153, 209, 232)
+4. rgb(3, 116, 146) */
+
+
+/* BARIS NAVIGASI ------------------- */
+#mainNav .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(6, 156, 206);
+}
+#mainNav .navbar-default {
+    border: none;
+}
+#mainNav .navbar-default .navbar-brand,
+#mainNav .navbar-default .navbar-nav>li>a {
+    color: black;
+    text-transform: uppercase;
+}
+
+
+
+/* BARIS JUMBOTRON ------------------ */
+#mainJumbotron .jumbotron {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: url(../images/aurora.png) top center no-repeat;
+    background-size: cover;
+    color: #000;
+}
+.jumbotron img {
+    width: 200px;
+    height: 200px;
+}
+#mainJumbotron .jumbotron h1,
+#mainJumbotron .jumbotron p {
+    font-weight: bold;
+}
+
+
+
+/* BARIS ABOUT ---------------------- */
+#mainAbout {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#mainAbout hr {
+    width: 120px;
+    border-top: 4px solid rgb(3, 116, 146);
+}
+#mainAbout .row p {
+    font-size: 18px;
+}
+
+
+
+/* BARIS EDUCATION ------------------ */
+#mainEducation {
+    background: url(../images/topi-toga1.jpg) center center no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#mainEducation hr {
+    width: 195px;
+    border-top: 4px solid rgb(3, 116, 146);
+}
+#mainEducation img {
+    width: 50px;
+    height: 50px;
+}
+#mainEducation .subEducation {
+    margin-bottom: 15px;
+}
+#mainEducation .media>.media-body>h4 {
+    min-height: 20px;
+}
+#mainEducation .logo-education {
+    height: 200px;
+    width: 200px;
+}
+#mainEducation h3,
+#mainEducation p {
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+/* BARIS EXPERIENCE -------------------- */
+#mainExperience {
+    background: url(../images/laptop-coding1.jpg) center center no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#mainExperience hr {
+    width: 195px;
+    border-top: 4px solid rgb(3, 116, 146);
+}
+#mainExperience .logo-company {
+    width: 100%;
+    height: 200px;
+}
+#mainExperience h3,
+#mainExperience h4,
+#mainExperience p,
+#mainExperience li {
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+/* BARIS TRAINING -------------------- */
+#mainTraining {
+    background: url(../images/training1.jpg) center center no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#mainTraining hr {
+    width: 145px;
+    border-top: 4px solid rgb(3, 116, 146);
+}
+#mainTraining img {
+}
+#mainTraining h3 {
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+/* BARIS PORTFOLIO ------------------ */
+#mainPortfolio {
+    background: url(../images/portfolio1.jpg) center center no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#mainPortfolio hr {
+    width: 155px;
+    border-top: 4px solid rgb(3, 116, 146);
+}
+#mainPortfolio h3 {
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+
+/* FOOTER */
+footer {
+    background-color: rgb(6, 156, 206);
+    font-size: 14px;
+    color: #000;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+footer a {
+    color: #ff0000;
+}
+footer a:hover {
+    color: #adff2f;
+}
